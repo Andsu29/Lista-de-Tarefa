@@ -1,0 +1,42 @@
+body{
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  background-color: rgb(39, 38, 40);
+  padding: 32px;
+  border-radius: 10px;
+}
+.container h1{
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+li{
+  margin-bottom: 8px;
+  padding: 4px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+button{
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+}
+.input-tarefa{
+  height: 36px;
+  border-radius: 4px;
+  border: none;
+}
+button:hover{
+  background-color: rgb(200, 195, 202);
+}
+ul button{
+  padding: 6px 10px;
+}
